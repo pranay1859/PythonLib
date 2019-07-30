@@ -22,7 +22,6 @@ def sendimage(url):
 	command = {'message':" ",'imageThumbnail':url,'imageFullsize':url}
 	return Lineconfig(command)
 
-
 sendtext("hello")
 sticker(38,2)
 sendimage('https://media.giphy.com/media/aQYR1p8saOQla/giphy.gif')
