@@ -47,23 +47,6 @@ control.
 different amounts depending on what it�s doing. Make sure you have a
 good power supply and that it isn't overtaxed.
 
-If you have a lot of peripherals connected to your Raspberry Pi, they
-may be demanding power as well. If your power supply is right at
-
-the limit of its capabilities and your processor needs extra power for
-computing-intensive tasks. it could exceed what's available and cause
-your Raspberry Pi to hang. This is particularly common it you try to
-power your Raspberry Pi from a USB socket.
-
-If these tips don�t fix the problems you're experiencing, your next port
-
-of call should be the user forums at the Raspberry Pi Foundation (www.
-raspberrypi .org/ forums). The user community there is extremely
-knowledgeable and very helpful, particularly for beginners. Your problem
-may already have been solved in the discussions there. If not, post your prob-
-lem, describing exactly the trouble you�re having. More often than not, you�ll
-get an answer within a few hours. Making it easy to experiment with your
-Raspberry Pi is what the user community is all about!
 [Finished in 4.2s]
 
 """
