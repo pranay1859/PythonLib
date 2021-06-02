@@ -2,12 +2,14 @@ import pytesseract
 from PIL import Image
 import time
 
+pytesseract.pytesseract.tesseract_cmd = "C:/Program Files/Tesseract-OCR/tesseract.exe"
 
 def scanEng(pic):
 	img = Image.open(pic)
 	text = pytesseract.image_to_string(img)
 	time.sleep(1)
 	print(text)
+	print("DOne")
 
 def scanThai(pic):
 	img = Image.open(pic)
@@ -15,38 +17,78 @@ def scanThai(pic):
 	time.sleep(1)
 	print(text)
 
-scanEng("book2.jpg")
+scanEng("F:/fern/kedkanok_resume.png")
 
-# result
 """
-- v 7
+Kedkanok
+Pumsuwan
 
-Things don�t always go according to plan. Here are some common problems
-and how you can try to solve them:
+CONTACT DETAILS
 
-1/ No lights on your Raspberry Pi: This can happen if you forgot to con-
-nect the micro USB power connector or if the power supply isn't capable
-of supplying your Raspberry Pi with enough power. Check that it�s rated
-to at least 5V 700mA (3.5 watts).
+Address: 137 Phahonyothin 59 Anusawari
+Bangkhen, Bangkok 10220
 
-1/ Only the red light comes on: Your Raspberry Pi has power. but it can�t
-read the operating system on your SD card. First, make sure your SD
-card is firmly inserted. Then check that you've correctly created the
-disk image. If that doesn�t work, you can try testing your SD card on
-another Raspberry Pi to see if you get the same problem. if all else fails,
-try using a pre-imaged SD card.
+Mobile : 0804535460
 
-1/ No output on the monitor: Check your monitor connection and your
-monitor's power connection. Make sure that your monitor is turned on.
-(Sounds silly. but we�ve all done this at least once!) Then check that
-your monitor is using the correct input source. Use a button on the
-front of the monitor to cycle through them or use the monitor's remote
-control.
+Email : fernkps1@gmail.com
 
-1/ Inconsistent behavior or hang-ups: Your Raspberry Pi uses power at
-different amounts depending on what it�s doing. Make sure you have a
-good power supply and that it isn't overtaxed.
 
-[Finished in 4.2s]
 
+ABOUT ME
+
+PROFESSIONAL HISTORY
+
+- Extroverted individuals prefer group
+activities and get energized by social
+interaction
+
+aCommerce.Co,LTD | 2017 - present - Like to set specific goals and accomplish
+each day
+
+- I'm looking for an opportunity to work
+with strong passion challenge and look
+forward company
+
+Social Media Specialist
+
+- Customer service B2C order transaction on
+e-marketplace
+
+- Coordinate client B2B with Elca, L'Oreal, Unilever and
+Unicharm
+
+- Make report customer feed back
+
+- Support supply-chain in stock for analytics promotion
+
+campainge
+RELEVANT SKILLS
+INTERNSHIP HISTORY - Sale and Operation marketing
+- Microsoft Office
+Lost Property Department - Time management skill management
+report and document preparation
+A.0.T (Airports of Thailand Public Company - Positive-thinking, flexible friendly
+Mbnediioe) | Jetaetehy= listen ANP atmosphere of collaboration with
+- Provides assistance for customers who have teamwork
+lost items. Answers phone and in-person - Ability to work as part of a team as well
+inquiries regarding lost items as independently
+inquiries regarding lost items as independently
+
+- Accepts found items from multiple sources
+and enters items in computerized system
+
+LANGUAGE
+
+- Thai
+EDUCATIONAL HISTORY - English
+
+Silpakorn University - French
+
+Graduated 2012-2017
+
+- B.Ain Faculty of Management Science, Tourism
+Management GPA 3.21 | graduated as the second class
+honors
+
+**References Available Request**
 """
